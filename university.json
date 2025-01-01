@@ -1,0 +1,64 @@
+{
+  "departments": {
+    "cs101": {
+      "id": "cs101",
+      "name": "Computer Science",
+      "building": "Tech Center",
+      "budget": 1000000
+    },
+    "CS101": {
+      "id": "CS101",
+      "name": "Computer Science",
+      "building": "Tech Park",
+      "budget": 1000000
+    },
+    "CS102": {
+      "id": "CS102",
+      "name": "Computer Science",
+      "building": "Tech Park",
+      "budget": 1000000
+    },
+    "css101": {
+      "id": "css101",
+      "name": "Computer Science",
+      "building": "Tech Park",
+      "budget": 1000000
+    },
+    "css102": {
+      "id": "css102",
+      "name": "Computer Science",
+      "building": "Tech Park",
+      "budget": 1000000
+    },
+    "css103": {
+      "id": "css103",
+      "name": "Computer Science",
+      "building": "Tech Park",
+      "budget": 1000000
+    }
+  },
+  "professors": {
+    "prof456": {
+      "id": "prof456",
+      "name": "Dr. JJ Jayakanth",
+      "email": "jjjayakanth@srmist.edu.in",
+      "department": "CS101",
+      "specialization": "AI"
+    },
+    "prof1234": {
+      "id": "prof1234",
+      "name": "Dr. JJ Jayakanth",
+      "email": "jjjayakanth@srmist.edu.in",
+      "department": "css101",
+      "specialization": "AI"
+    },
+    "prof12345": {
+      "id": "prof12345",
+      "name": "Dr. JJ Jayakanth",
+      "email": "jjjayakanth@srmist.edu.in",
+      "department": "css103",
+      "specialization": "AI"
+    }
+  },
+  "students": {}
+}

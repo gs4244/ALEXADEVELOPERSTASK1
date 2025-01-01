@@ -1,0 +1,48 @@
+{
+    "departments": {
+      "cs101": {
+        "id": "cs101",
+        "name": "Computer Science",
+        "building": "Tech Park",
+        "budget": 1000000
+      },
+      "eng201": {
+        "id": "eng201",
+        "name": "Engineering",
+        "building": "Main Campus",
+        "budget": 1500000
+      }
+    },
+    "professors": {
+      "prof123": {
+        "id": "prof123",
+        "name": "Dr. JJ Jayakanth",
+        "email": "jayakanth@srmist.edu.in",
+        "department": "cs101",
+        "specialization": "Artificial Intelligence"
+      },
+      "prof456": {
+        "id": "prof124",
+        "name": "Dr. Harry Potter",
+        "email": "harrypotter@srmist.edu.in",
+        "department": "eng201",
+        "specialization": "Robotics"
+      }
+    },
+    "students": {
+      "std101": {
+        "id": "std101",
+        "name": "John Doe",
+        "email": "johndoe789@srmist.edu.in",
+        "enrollmentYear": 2024,
+        "course": "Computer Science"
+      },
+      "std102": {
+        "id": "std102",
+        "name": "Justin Bieber",
+        "email": "justinbieber@srmist.edu.in",
+        "enrollmentYear": 2023,
+        "course": "Semiconductors"
+      }
+    }
+  }
