@@ -15,17 +15,14 @@ A robust Node.js module for managing university data through JSON operations. Th
 
 ### Basic Setup
 
-```javascript
-const UniversityDataManager = require('./src/UniversityDataManager');
-const manager = new UniversityDataManager('university.json');
 
-// Initialize the data structure
+const UniversitySystem = require('./src/UniversitySystem');
+const manager = new UniversitySystem('university.json');
 await manager.initialize();
-```
+
 
 ### Adding Data
 
-```javascript
 // Add a department
 await manager.add('department', {
     id: 'cs101',
@@ -51,11 +48,11 @@ await manager.add('student', {
     enrollmentYear: 2024,
     major: 'Computer Science'
 });
-```
+
 
 ### Updating Data
 
-```javascript
+
 // Update department budget
 await manager.update('department', 'cs101', {
     budget: 1200000
@@ -65,11 +62,10 @@ await manager.update('department', 'cs101', {
 await manager.update('professor', 'prof123', {
     email: 'doe.new@srmist.edu.in'
 });
-```
+
 
 ### Searching Data
 
-```javascript
 // Search for CS professors
 const csProfessors = await manager.search('professor', {
     department: 'cs101'
@@ -79,25 +75,22 @@ const csProfessors = await manager.search('professor', {
 const csStudents = await manager.search('student', {
     major: 'Computer Science'
 });
-```
 
 ### Deleting Data
 
-```javascript
+
 // Delete a student
 await manager.delete('student', 'std101');
 
 // Delete a department (will fail if professors are assigned)
 await manager.delete('department', 'cs101');
-```
 
-## API Documentation
 
-### Class: UniversityDataManager
+### Class: UniversitySystem
 
 #### Constructor
 
-- `constructor(filename)`: Creates a new instance of UniversityDataManager
+- `constructor(filename)`: Creates a new instance of UniversitySystem
   - `filename`: Path to the JSON file to store university data
 
 #### Methods
